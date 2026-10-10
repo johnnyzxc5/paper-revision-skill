@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "project": "REPLACE_WITH_PROJECT_NAME",
+  "notebook_alias": "project",
+  "notebook_title": "REPLACE_WITH_NOTEBOOK_TITLE",
+  "notebook_id": "REPLACE_WITH_PROJECT_NOTEBOOK_UUID",
+  "required_roles": ["project_context", "current_manuscript"],
+  "digest_exclusions": [".paper-revision/project-state.json", ".paper-revision/project-context.md"],
+  "snapshot": {
+    "id": "REPLACE_WITH_CURRENT_SNAPSHOT_ID",
+    "git_branch": "REPLACE_WITH_GIT_BRANCH_OR_NOT_APPLICABLE",
+    "git_head": "REPLACE_WITH_GIT_HEAD_OR_NOT_APPLICABLE",
+    "worktree_digest": "REPLACE_WITH_DIGEST_OR_NOT_APPLICABLE",
+    "generated_at_utc": "REPLACE_WITH_ISO_8601"
+  },
+  "managed_sources": [
+    {
+      "role": "project_context",
+      "title": "REPLACE_WITH_PROJECT_CONTEXT_SOURCE_TITLE",
+      "source_id": "REPLACE_WITH_SOURCE_UUID",
+      "local_path": ".paper-revision/project-context.md",
+      "sha256": "REPLACE_WITH_SHA256",
+      "required": true,
+      "mutable": true
+    },
+    {
+      "role": "current_manuscript",
+      "title": "REPLACE_WITH_CURRENT_MANUSCRIPT_SOURCE_TITLE",
+      "source_id": "REPLACE_WITH_SOURCE_UUID",
+      "local_path": "manuscript.pdf",
+      "sha256": "REPLACE_WITH_SHA256",
+      "required": true,
+      "mutable": true
+    }
+  ]
+}

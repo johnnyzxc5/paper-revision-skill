@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "task_id": "C1",
+  "gate_required": true,
+  "gate_reason": "A synthetic reviewer asks to distinguish sample association from causation.",
+  "context_envelope": {
+    "target_scope": "Complete Results subsection containing the association claim.",
+    "preceding_context": "The preceding paragraph defines the sample and outcome.",
+    "following_context": "The next paragraph interprets limits of the observation.",
+    "definitions_and_symbols_checked": [
+      "Outcome definition",
+      "Sample inclusion criteria",
+      "Notation registry"
+    ],
+    "downstream_occurrences_checked": [
+      "Methods conditions",
+      "Discussion inference",
+      "Conclusion scope"
+    ],
+    "protected_anchors": [
+      "Reported values and sample denominator",
+      "Unaffected neighboring paragraphs"
+    ],
+    "reviewer_census": {
+      "direct_comment_ids": [
+        "C1"
+      ],
+      "inherited_ripple_ids": [
+        "R8",
+        "C24"
+      ],
+      "adjacent_block_comment_ids": [],
+      "internal_defect_ids": [
+        "D-C1-1"
+      ],
+      "evidence_anchors": [
+        "Synthetic raw comment C1",
+        "Synthetic ledger entries C1, R8, C24",
+        "Synthetic dependency map"
+      ],
+      "bounded_conclusion": "Illustrative census only; no statement about a real manuscript."
+    },
+    "abstraction_contract": "Keep study-specific sampling choices in Methods and observed values in Results."
+  },
+  "route_rounds": 1,
+  "selection_state": "AWAITING_USER_APPROVAL",
+  "selected_route_id": null,
+  "selection_basis": "This route passes every hard gate using existing evidence and requires no new experiment.",
+  "notebooklm_query_ids": [
+    "C1-project-context-r1",
+    "C1-theory-route-r1",
+    "C1-writing-route-r1"
+  ],
+  "notebooklm_consultation": {
+    "status": "COMPLETED",
+    "required_roles": [
+      "project",
+      "theory",
+      "writing"
+    ],
+    "reason": "The route is reviewer-driven, cross-sectional, technical, and rhetorical.",
+    "receipts": [
+      {
+        "query_id": "C1-project-context-r1",
+        "role": "project",
+        "notebook_id": "example-project-notebook-id",
+        "source_ids": [
+          "example-project-context-source-id",
+          "example-review-ledger-source-id",
+          "example-ripple-source-id"
+        ],
+        "prompt_file": "receipt-examples/C1-project-context-r1.txt",
+        "output_file": "receipt-examples/route-batch-output.example.json",
+        "output_sha256": "fa07352f30ea1d5a208997f8f10d5cafc2a889146dfbe3343ce48d713a40fa5e"
+      },
+      {
+        "query_id": "C1-theory-route-r1",
+        "role": "theory",
+        "notebook_id": "example-theory-notebook-id",
+        "source_ids": [],
+        "prompt_file": "receipt-examples/C1-theory-route-r1.txt",
+        "output_file": "receipt-examples/route-batch-output.example.json",
+        "output_sha256": "fa07352f30ea1d5a208997f8f10d5cafc2a889146dfbe3343ce48d713a40fa5e"
+      },
+      {
+        "query_id": "C1-writing-route-r1",
+        "role": "writing",
+        "notebook_id": "example-writing-notebook-id",
+        "source_ids": [
+          "example-rubric-source-id",
+          "example-writing-guide-source-id"
+        ],
+        "prompt_file": "receipt-examples/C1-writing-route-r1.txt",
+        "output_file": "receipt-examples/route-batch-output.example.json",
+        "output_sha256": "fa07352f30ea1d5a208997f8f10d5cafc2a889146dfbe3343ce48d713a40fa5e"
+      }
+    ],
+    "findings": [
+      {
+        "query_id": "C1-theory-route-r1",
+        "role": "theory",
+        "route_id": "R-A",
+        "criterion_id": "RG2",
+        "outcome": "PASS",
+        "evidence": "Synthetic answer row supports the declared criterion within the fictional sample."
+      },
+      {
+        "query_id": "C1-theory-route-r1",
+        "role": "theory",
+        "route_id": "R-A",
+        "criterion_id": "RG3",
+        "outcome": "PASS",
+        "evidence": "Synthetic answer row supports the declared criterion within the fictional sample."
+      },
+      {
+        "query_id": "C1-theory-route-r1",
+        "role": "theory",
+        "route_id": "R-A",
+        "criterion_id": "RG6",
+        "outcome": "PASS",
+        "evidence": "Synthetic answer row supports the declared criterion within the fictional sample."
+      },
+      {
+        "query_id": "C1-theory-route-r1",
+        "role": "theory",
+        "route_id": "R-A",
+        "criterion_id": "RG7",
+        "outcome": "PASS",
+        "evidence": "Synthetic answer row supports the declared criterion within the fictional sample."
+      },
+      {
+        "query_id": "C1-writing-route-r1",
+        "role": "writing",
+        "route_id": "R-A",
+        "criterion_id": "RG1",
+        "outcome": "PASS",
+        "evidence": "Synthetic answer row supports the declared criterion within the fictional sample."
+      },
+      {
+        "query_id": "C1-writing-route-r1",
+        "role": "writing",
+        "route_id": "R-A",
+        "criterion_id": "RG4",
+        "outcome": "PASS",
+        "evidence": "Synthetic answer row supports the declared criterion within the fictional sample."
+      },
+      {
+        "query_id": "C1-writing-route-r1",
+        "role": "writing",
+        "route_id": "R-A",
+        "criterion_id": "RG7",
+        "outcome": "PASS",
+        "evidence": "Synthetic answer row supports the declared criterion within the fictional sample."
+      },
+      {
+        "query_id": "C1-writing-route-r1",
+        "role": "writing",
+        "route_id": "R-A",
+        "criterion_id": "RG8",
+        "outcome": "PASS",
+        "evidence": "Synthetic answer row supports the declared criterion within the fictional sample."
+      }
+    ]
+  },
+  "user_route_decision": {
+    "status": "PENDING",
+    "route_id": null,
+    "evidence": null
+  },
+  "routes": [
+    {
+      "id": "R-A",
+      "type": "CLAIM_CALIBRATION",
+      "proposal": "Limit the association claim to the observed study sample.",
+      "decision": "RECOMMENDED",
+      "existing_evidence": [
+        "manuscript.tex: synthetic observation anchor",
+        "analysis code: synthetic sample counts"
+      ],
+      "new_evidence_required": [],
+      "applicable_paper_rubric_layers": [
+        "L2",
+        "L5",
+        "L6",
+        "L8"
+      ],
+      "ripple_targets": [
+        "Methods",
+        "Results",
+        "Discussion",
+        "Conclusion",
+        "review ledger C1"
+      ],
+      "verification_checks": [
+        "Reported conditions and sample denominator are preserved.",
+        "No causal effect is asserted from association alone.",
+        "LaTeX compiles without undefined references."
+      ],
+      "findings": [
+        {
+          "criterion_id": "RG1",
+          "outcome": "PASS",
+          "evidence": "Synthetic example: criterion is satisfied within the bounded sample claim."
+        },
+        {
+          "criterion_id": "RG2",
+          "outcome": "PASS",
+          "evidence": "Synthetic example: criterion is satisfied within the bounded sample claim."
+        },
+        {
+          "criterion_id": "RG3",
+          "outcome": "PASS",
+          "evidence": "Synthetic example: criterion is satisfied within the bounded sample claim."
+        },
+        {
+          "criterion_id": "RG4",
+          "outcome": "PASS",
+          "evidence": "Synthetic example: criterion is satisfied within the bounded sample claim."
+        },
+        {
+          "criterion_id": "RG5",
+          "outcome": "PASS",
+          "evidence": "Synthetic example: criterion is satisfied within the bounded sample claim."
+        },
+        {
+          "criterion_id": "RG6",
+          "outcome": "PASS",
+          "evidence": "Synthetic example: criterion is satisfied within the bounded sample claim."
+        },
+        {
+          "criterion_id": "RG7",
+          "outcome": "PASS",
+          "evidence": "Synthetic example: criterion is satisfied within the bounded sample claim."
+        },
+        {
+          "criterion_id": "RG8",
+          "outcome": "PASS",
+          "evidence": "Synthetic example: criterion is satisfied within the bounded sample claim."
+        },
+        {
+          "criterion_id": "RG9",
+          "outcome": "PASS",
+          "evidence": "Synthetic example: criterion is satisfied within the bounded sample claim."
+        }
+      ]
+    }
+  ],
+  "fixture_notice": "Synthetic reviewer task and receipts for demonstration only; never reuse as paper evidence."
+}

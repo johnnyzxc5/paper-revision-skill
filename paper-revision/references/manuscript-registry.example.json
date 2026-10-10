@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "note": "Template only. Replace entries from inspected current text; do not import examples as manuscript facts.",
+  "manuscript": "path/to/current-manuscript.tex",
+  "verified_snapshot": "replace-with-current-content-hash-or-snapshot",
+  "retired_claims": [],
+  "scopes": [
+    {"id": "abstract", "reason": "Independent readability; verify the target venue requirements."},
+    {"id": "body", "reason": "Main manuscript definition scope."}
+  ],
+  "symbols": [
+    {
+      "latex": "r(t)",
+      "meaning": "replace-with-the-current-defined-quantity",
+      "domain_or_dimension": "replace-if-material",
+      "scope": "body",
+      "definition_anchor": "replace-with-exact-text-or-label",
+      "first_use_anchor": "replace-with-exact-text-or-label",
+      "authorized_variants": [],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "acronyms": [
+    {
+      "short": "MPC",
+      "expansion": "model predictive control",
+      "definitions": [{"scope": "body", "anchor": "replace-with-current-first-definition"}],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "terminology": [
+    {"canonical": "replace-with-established-term", "allowed_variants": [], "retired_variants": []}
+  ]
+}

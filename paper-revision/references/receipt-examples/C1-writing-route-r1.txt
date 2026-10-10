@@ -1,0 +1,13 @@
+TASK_ID: C1-writing-route-r1
+ROLE: Source-grounded scientific-writing route auditor.
+REVIEWER_REQUIREMENT: Bound the association claim to the observed study sample.
+ROUTES: R-A reports the observed association without claiming a causal effect.
+CRITERIA: Evaluate R-A against RG1, RG4, RG7, and RG8. Applicable layers: L2, L5, L6, L8.
+
+Return exactly these labels:
+ROUTE_FINDINGS:
+RHETORICALLY_PREFERRED_ROUTE:
+APPLICABLE_PAPER_RUBRIC_LAYERS:
+SOURCE_USE_REPORT:
+OWNERSHIP_OR_SCOPE_RISKS:
+ADDITIONAL_ROUTE:

@@ -1,0 +1,2 @@
+# Optional integration only; the installable skill carries the dependency pin.
+-r paper-revision/requirements-notebooklm.txt

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "profile": "paper-revision",
+  "backend": "web",
+  "fresh_default": false,
+  "max_prompt_chars": 3500,
+  "request_timeout_seconds": 90,
+  "max_attempts": 2,
+  "max_concurrency": 2,
+  "active_history_poll_default": true,
+  "history_poll_interval_seconds": 2.5,
+  "progress_heartbeat_seconds": 10,
+  "diagnostics_mode_default": "summary",
+  "notebooks": {
+    "project": {"id": ""},
+    "theory": {"id": ""},
+    "writing": {"id": ""}
+  }
+}

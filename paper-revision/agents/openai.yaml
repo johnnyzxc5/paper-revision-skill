@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Revision"
+  short_description: "Write and revise papers from inspected evidence"
+  default_prompt: "Use $paper-revision to review this manuscript's argument, evidence, and proposed changes."

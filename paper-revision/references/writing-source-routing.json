@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "notebook_alias": "writing",
+  "rubric_source_key": "revision_rubric",
+  "policy": {
+    "selection_unit": "atomic_query",
+    "max_required_sources_per_query": 5,
+    "full_manuscript_strategy": "split_by_profile",
+    "rubric_required_for_profiles": true,
+    "physical_or_mathematical_truth_authority": "theory_notebook_and_local_primary_evidence",
+    "inventory_note": "Illustrative registry only. Copy and configure sources/profiles for your own writing notebook; titles are not a required library or evidence of source ownership."
+  },
+  "layers": {
+    "L0": "Review boundary and evidence manifest",
+    "L1": "Scope, problem, novelty, and contribution",
+    "L2": "Theory, mathematics, and physical consistency",
+    "L3": "Method and reproducibility",
+    "L4": "Experimental design and data integrity",
+    "L5": "Results, statistics, and claim calibration",
+    "L6": "Scientific structure and argument",
+    "L7": "Scientific prose and rhetorical precision",
+    "L8": "Presentation and venue profile",
+    "L9": "Integrity, ethics, and conditional compliance",
+    "L10": "Reviewer response and revision traceability"
+  },
+  "coverage_gaps": [
+    {
+      "topic": "LaTeX compiler behavior, package conflicts, and rendering failures",
+      "route_to": "local compilation, logs, and visual inspection"
+    },
+    {
+      "topic": "Domain-specific models, mechanisms, metrics, thresholds, and statistical adequacy",
+      "route_to": "theory notebook plus current code, data, and domain primary sources"
+    }
+  ],
+  "sources": {
+    "revision_rubric": {
+      "canonical_title": "Technical Scientific Paper Revision Rubric v1.1",
+      "title_aliases": [
+        "Technical Scientific Paper Revision Rubric v1.0"
+      ],
+      "authority": "OPERATIONAL_SCHEMA",
+      "default_status": "CORE",
+      "description": "Defines L0-L10, evidence states, severities, and the conditional IEEE annex; it selects checks but never proves a venue rule or technical claim.",
+      "supports_layers": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10"
+      ]
+    },
+    "ieee_editorial": {
+      "canonical_title": "IEEE Editorial Style Manual for Authors.pdf",
+      "title_aliases": [
+        "IEEE Editorial Style Manual for Authors"
+      ],
+      "authority": "PRIMARY_NORMATIVE",
+      "default_status": "CONDITIONAL",
+      "description": "IEEE-wide editorial, manuscript-component, metadata, terminology, disclosure, and applicable policy guidance.",
+      "supports_layers": [
+        "L8",
+        "L9"
+      ]
+    },
+    "ieee_math": {
+      "canonical_title": "IEEE Mathematics Style Guide for Authors.pdf",
+      "title_aliases": [
+        "IEEE Mathematics Style Guide for Authors"
+      ],
+      "authority": "PRIMARY_NORMATIVE",
+      "default_status": "CONDITIONAL",
+      "description": "IEEE mathematical typography, equation layout, fonts, spacing, delimiters, and mathematical presentation.",
+      "supports_layers": [
+        "L2",
+        "L8"
+      ]
+    },
+    "ieee_references": {
+      "canonical_title": "IEEE Reference Style Guide for Authors.pdf",
+      "title_aliases": [
+        "IEEE Reference Style Guide for Authors"
+      ],
+      "authority": "PRIMARY_NORMATIVE",
+      "default_status": "CONDITIONAL",
+      "description": "IEEE in-text citation and bibliography formatting, abbreviations, and reference-type requirements.",
+      "supports_layers": [
+        "L8",
+        "L9",
+        "L10"
+      ]
+    },
+    "knuth_math_writing": {
+      "canonical_title": "Mathematical Writing.pdf",
+      "title_aliases": [
+        "Mathematical Writing"
+      ],
+      "authority": "SECONDARY_GUIDANCE",
+      "default_status": "CONDITIONAL",
+      "description": "Mathematical prose, logical exposition, grammatical integration of symbols and displayed equations, and punctuation heuristics.",
+      "supports_layers": [
+        "L2",
+        "L6",
+        "L7",
+        "L8"
+      ]
+    },
+    "science_research_writing": {
+      "canonical_title": "Science Research Writing For Native And Non-native Speakers.pdf",
+      "title_aliases": [
+        "Science Research Writing For Native And Non-native Speakers",
+        "Science Research Writing for Non-Native Speakers of English"
+      ],
+      "authority": "SECONDARY_GUIDANCE",
+      "default_status": "CONDITIONAL",
+      "description": "STEM section purposes, introduction-method-results-discussion patterns, paragraph functions, transitions, and evidence-calibrated reporting.",
+      "supports_layers": [
+        "L1",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7"
+      ]
+    },
+    "williams_clarity": {
+      "canonical_title": "Style_ Lessons in Clarity and Grace.pdf",
+      "title_aliases": [
+        "Style: Lessons in Clarity and Grace",
+        "Style Lessons in Clarity and Grace"
+      ],
+      "authority": "SECONDARY_GUIDANCE",
+      "default_status": "CONDITIONAL",
+      "description": "Subject-action alignment, nominalization diagnosis, information flow, cohesion, emphasis, and concision.",
+      "supports_layers": [
+        "L5",
+        "L6",
+        "L7"
+      ]
+    },
+    "successful_academic_writing": {
+      "canonical_title": "Successful Academic Writing.pdf",
+      "title_aliases": [
+        "Successful Academic Writing"
+      ],
+      "authority": "SECONDARY_GUIDANCE",
+      "default_status": "CONDITIONAL",
+      "description": "Reverse outlining, literature organization, structural self-review, and revision tracking support.",
+      "supports_layers": [
+        "L0",
+        "L1",
+        "L6",
+        "L7",
+        "L10"
+      ]
+    },
+    "effective_peer_review": {
+      "canonical_title": "How to Conduct an Effective Peer Review.pdf",
+      "title_aliases": [
+        "How to Conduct an Effective Peer Review"
+      ],
+      "authority": "SECONDARY_GUIDANCE",
+      "default_status": "CONDITIONAL",
+      "description": "Reviewer roles, constructive critique, response tone, and evaluating whether revisions answer review concerns.",
+      "supports_layers": [
+        "L0",
+        "L1",
+        "L6",
+        "L7",
+        "L10"
+      ]
+    },
+    "peer_review_management": {
+      "canonical_title": "Peer Review and Manuscript Management in Scientific Journals.pdf",
+      "title_aliases": [
+        "Peer Review and Manuscript Management in Scientific Journals"
+      ],
+      "authority": "SECONDARY_GUIDANCE",
+      "default_status": "CONDITIONAL",
+      "description": "Submission and resubmission workflow, reviewer-response organization, editorial responsibilities, and handling integrity concerns.",
+      "supports_layers": [
+        "L0",
+        "L9",
+        "L10"
+      ]
+    }
+  },
+  "profiles": {
+    "review_boundary": {
+      "layers": [
+        "L0"
+      ],
+      "required": [
+        "revision_rubric"
+      ],
+      "optional": [
+        "successful_academic_writing",
+        "peer_review_management"
+      ],
+      "description": "Define audit scope, available evidence, and limitations."
+    },
+    "scope_contribution": {
+      "layers": [
+        "L1"
+      ],
+      "required": [
+        "revision_rubric",
+        "science_research_writing"
+      ],
+      "optional": [
+        "successful_academic_writing"
+      ],
+      "description": "Audit problem framing, contribution boundaries, novelty rhetoric, and section-level positioning."
+    },
+    "mathematical_prose": {
+      "layers": [
+        "L2",
+        "L6",
+        "L7"
+      ],
+      "required": [
+        "revision_rubric",
+        "knuth_math_writing"
+      ],
+      "optional": [
+        "williams_clarity"
+      ],
+      "description": "Integrate equations and symbols into clear grammatical and logical exposition; not a validity proof."
+    },
+    "method_reproducibility": {
+      "layers": [
+        "L3"
+      ],
+      "required": [
+        "revision_rubric",
+        "science_research_writing"
+      ],
+      "optional": [
+        "effective_peer_review"
+      ],
+      "description": "Audit whether procedures and influential parameters are reported reproducibly."
+    },
+    "experimental_design_reporting": {
+      "layers": [
+        "L4"
+      ],
+      "required": [
+        "revision_rubric",
+        "science_research_writing"
+      ],
+      "optional": [
+        "effective_peer_review"
+      ],
+      "description": "Audit reporting of samples, splits, baselines, ablations, and experimental limitations; domain validity still requires local/theory evidence."
+    },
+    "results_claim_calibration": {
+      "layers": [
+        "L5"
+      ],
+      "required": [
+        "revision_rubric",
+        "science_research_writing"
+      ],
+      "optional": [
+        "williams_clarity",
+        "effective_peer_review"
+      ],
+      "description": "Audit results reporting, limitations, statistics language, and evidence-appropriate claim strength."
+    },
+    "scientific_structure": {
+      "layers": [
+        "L6"
+      ],
+      "required": [
+        "revision_rubric",
+        "science_research_writing"
+      ],
+      "optional": [
+        "successful_academic_writing",
+        "knuth_math_writing"
+      ],
+      "description": "Audit section roles, ordering, abstraction boundaries, paragraph functions, and transitions."
+    },
+    "prose_clarity": {
+      "layers": [
+        "L7"
+      ],
+      "required": [
+        "revision_rubric",
+        "williams_clarity"
+      ],
+      "optional": [
+        "science_research_writing",
+        "knuth_math_writing"
+      ],
+      "description": "Audit agency, nominalizations, cohesion, emphasis, concision, and rhetorical precision."
+    },
+    "ieee_editorial_compliance": {
+      "layers": [
+        "L8",
+        "L9"
+      ],
+      "required": [
+        "revision_rubric",
+        "ieee_editorial"
+      ],
+      "optional": [],
+      "description": "Apply general IEEE editorial, metadata, disclosure, and applicable policy requirements."
+    },
+    "ieee_math_typesetting": {
+      "layers": [
+        "L2",
+        "L8"
+      ],
+      "required": [
+        "revision_rubric",
+        "ieee_math"
+      ],
+      "optional": [
+        "knuth_math_writing"
+      ],
+      "description": "Apply IEEE mathematical typography and equation-layout requirements."
+    },
+    "ieee_references": {
+      "layers": [
+        "L8",
+        "L9",
+        "L10"
+      ],
+      "required": [
+        "revision_rubric",
+        "ieee_references"
+      ],
+      "optional": [
+        "ieee_editorial"
+      ],
+      "description": "Audit IEEE citations and bibliography entries."
+    },
+    "integrity_compliance": {
+      "layers": [
+        "L9"
+      ],
+      "required": [
+        "revision_rubric"
+      ],
+      "optional": [
+        "peer_review_management"
+      ],
+      "description": "Identify relevant integrity questions without presuming a venue policy. For an IEEE target also select ieee_editorial_compliance; for another venue inspect its official policies locally. Do not establish compliance from the rubric alone."
+    },
+    "reviewer_response": {
+      "layers": [
+        "L10"
+      ],
+      "required": [
+        "revision_rubric",
+        "peer_review_management",
+        "effective_peer_review"
+      ],
+      "optional": [
+        "successful_academic_writing"
+      ],
+      "description": "Draft or audit a response letter and revision traceability."
+    },
+    "reverse_outline": {
+      "layers": [
+        "L0",
+        "L6",
+        "L10"
+      ],
+      "required": [
+        "revision_rubric",
+        "successful_academic_writing"
+      ],
+      "optional": [
+        "science_research_writing"
+      ],
+      "description": "Perform a deliberate reverse-outline or structural revision-tracking exercise."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "reported_counts": {
+    "BLOCKED": 0,
+    "NEEDS_DECISION": 0,
+    "OBSOLETE_SCOPE": 0,
+    "OPEN": 0,
+    "PARTIAL": 1,
+    "RESOLVED": 0
+  },
+  "comments": [
+    {
+      "id": "C1",
+      "reviewer": "Reviewer A",
+      "requirement": "Describe the observed sample association without claiming causation.",
+      "status": "PARTIAL",
+      "severity": "MAJOR",
+      "evidence": [
+        {
+          "file": "manuscript.tex",
+          "anchor": "observed sample association",
+          "line": 42,
+          "observation": "The sample result is present, but the inferential wording remains too strong."
+        }
+      ],
+      "affected_sections": [
+        "Results",
+        "Discussion"
+      ],
+      "dependencies": [
+        "sample definition",
+        "inference boundary"
+      ],
+      "open_actions": [
+        "Calibrate wording against the inspected design and data."
+      ],
+      "notebooklm_query_ids": [
+        "C1-theory-evidence"
+      ],
+      "route_decision": {
+        "file": "route-decisions/C1.json",
+        "selection_state": "SELECTED",
+        "selected_route_id": "R-A"
+      },
+      "rubric_findings": [
+        {
+          "criterion_id": "L5",
+          "outcome": "PARTIAL",
+          "observation": "Association is reported; the causal boundary needs clarification."
+        }
+      ],
+      "last_verified_commit": "replace-with-current-commit"
+    }
+  ]
+}

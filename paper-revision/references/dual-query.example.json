@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "queries": [
+    {
+      "id": "block-theory-audit",
+      "notebook": "theory",
+      "question_file": "theory-prompt.txt",
+      "fresh": false
+    },
+    {
+      "id": "block-writing-audit",
+      "notebook": "writing",
+      "question_file": "writing-prompt.txt",
+      "fresh": false
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Optional integration only. The local skill has no third-party runtime dependencies.
+notebooklm-py[browser]==0.8.2

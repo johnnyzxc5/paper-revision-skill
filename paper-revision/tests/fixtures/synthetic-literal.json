@@ -1,0 +1,19 @@
+{
+  "provenance": "Synthetic public regression fixture. Not an authenticated service receipt or scientific evidence.",
+  "local_text": "# Synthetic fidelity probe — no scientific result\n\n**Units:** plot-level observations; 25% is descriptive, not a mechanism.\nLiteral backticks: `alpha_beta`; ñ, α, ≤, −, & < >.\n\n| Method | Accuracy | MDR denominator |\n| --- | --- | --- |\n| A | 25.00% | all fault observations |\n| B | 26.50% | all fault observations |\n\n\\begin{equation}\ny_i = \\frac{x_i^2}{n_\\mathrm{fault}} + 10^{-3}.\n\\end{equation}\n\n\\begin{table}\n\\caption{Synthetic values: no empirical inference.}\n\\begin{tabular}{lr}\nMethod & Value\\\\\nA & 25.00\\%\\\\\n\\end{tabular}\n\\end{table}\n\n```python\nprint(\"not executable review data\")\n```\n\nEnd of complete literal source.\n",
+  "receipt": {
+    "schema": "notebooklm-source-operation/1",
+    "operation": "fulltext",
+    "exit_code": 0,
+    "result": {
+      "source_id": "00000000-0000-4000-8000-000000000001",
+      "title": "Synthetic fidelity test source",
+      "kind": "markdown",
+      "content": "# Synthetic fidelity probe — no scientific result\n\n**Units:** plot-level observations; 25% is descriptive, not a mechanism.\nLiteral backticks: `alpha_beta`; ñ, α, ≤, −, & < >.\n\n| Method | Accuracy | MDR denominator |\n| --- | --- | --- |\n| A | 25.00% | all fault observations |\n| B | 26.50% | all fault observations |\n\n\\begin{equation}\ny_i = \\frac{x_i^2}{n_\\mathrm{fault}} + 10^{-3}.\n\\end{equation}\n\n\\begin{table}\n\\caption{Synthetic values: no empirical inference.}\n\\begin{tabular}{lr}\nMethod & Value\\\\\nA & 25.00\\%\\\\\n\\end{tabular}\n\\end{table}\n\n```python\nprint(\"not executable review data\")\n```\n\nEnd of complete literal source.\n\n",
+      "url": null,
+      "char_count": 627
+    },
+    "stderr": "",
+    "elapsed_ms": 0
+  }
+}

@@ -1,0 +1,13 @@
+TASK_ID: C1-theory-route-r1
+ROLE: Source-grounded domain route auditor.
+REVIEWER_REQUIREMENT: Bound the association claim to the observed study sample.
+ROUTES: R-A reports the observed association without claiming a causal effect.
+CRITERIA: Evaluate R-A against RG2, RG3, RG6, and RG7.
+
+Return exactly these labels:
+ROUTE_FINDINGS:
+TECHNICALLY_PREFERRED_ROUTE:
+UNSUPPORTED_PROPOSITIONS:
+MISSING_EVIDENCE:
+SOURCE_USE_REPORT:
+ADDITIONAL_ROUTE:

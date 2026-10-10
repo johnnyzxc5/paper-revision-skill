@@ -1,0 +1,53 @@
+{
+  "schema": "notebooklm-agent-wrapper/2.5.2",
+  "command": "batch",
+  "status": "success",
+  "counts": {
+    "total": 3,
+    "success": 3,
+    "error": 0
+  },
+  "results": [
+    {
+      "query_id": "C1-project-context-r1",
+      "status": "success",
+      "notebook_id": "example-project-notebook-id",
+      "answer": "SNAPSHOT_MATCH: YES\nIN_FORCE_CONSTRAINTS: Preserve study conditions and the sample denominator.\nREVIEWER_REQUIREMENTS: C1 is direct; R8 and C24 are synthetic inherited checks.\nRIPPLE_TARGETS: Methods, Results, Discussion.\nMISSING_LOCAL_EVIDENCE: NONE.",
+      "retrieval_method": "direct_cli",
+      "request": {
+        "question_sha256": "aa6cc6d5d3d6f02998f010ef2c54948b8dd877b99618f31e30bbc3e3ac6b1991",
+        "source_ids": [
+          "example-project-context-source-id",
+          "example-review-ledger-source-id",
+          "example-ripple-source-id"
+        ]
+      }
+    },
+    {
+      "query_id": "C1-theory-route-r1",
+      "status": "success",
+      "notebook_id": "example-theory-notebook-id",
+      "answer": "ROUTE_FINDINGS: R-A | RG2 | PASS | Limited to observed samples; R-A | RG3 | PASS | Consistent variables and conditions; R-A | RG6 | PASS | No new data needed for this limited claim; R-A | RG7 | PASS | Counts and wording are checkable.\nTECHNICALLY_PREFERRED_ROUTE: R-A.\nUNSUPPORTED_PROPOSITIONS: NONE.\nMISSING_EVIDENCE: NONE for the limited claim.\nSOURCE_USE_REPORT: Synthetic domain source | supports the association boundary | [1].\nADDITIONAL_ROUTE: NONE.",
+      "retrieval_method": "direct_cli",
+      "request": {
+        "question_sha256": "7c0e98baf07e6ec217cd66bd153acaa351dc8427555b9cac7a661e343b0ae606",
+        "source_ids": []
+      }
+    },
+    {
+      "query_id": "C1-writing-route-r1",
+      "status": "success",
+      "notebook_id": "example-writing-notebook-id",
+      "answer": "ROUTE_FINDINGS: R-A | RG1 | PASS | Addresses C1; R-A | RG4 | PASS | Claim strength is limited; R-A | RG7 | PASS | Wording checks are observable; R-A | RG8 | PASS | Changes only the affected claim.\nRHETORICALLY_PREFERRED_ROUTE: R-A.\nAPPLICABLE_PAPER_RUBRIC_LAYERS: R-A | L2, L5, L6, L8.\nSOURCE_USE_REPORT: Synthetic rubric | organizes checks | [1]; synthetic writing source | supports calibrated wording | [2].\nOWNERSHIP_OR_SCOPE_RISKS: NONE.\nADDITIONAL_ROUTE: NONE.",
+      "retrieval_method": "direct_cli",
+      "request": {
+        "question_sha256": "b815c3d76d25ce93a3d1ae6044fdd4231ba32f967ac277ca56dc128c5f7528c9",
+        "source_ids": [
+          "example-rubric-source-id",
+          "example-writing-guide-source-id"
+        ]
+      }
+    }
+  ],
+  "fixture_notice": "Entirely synthetic illustration for guard tests. Not a NotebookLM service response or scientific evidence."
+}

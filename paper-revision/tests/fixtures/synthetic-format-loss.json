@@ -1,0 +1,15 @@
+{
+  "provenance": "Entirely synthetic offline source-fidelity test, not a service receipt.",
+  "local_text": "# Synthetic rubric\n\n**Evidence:** preserve every symbol.\n\nEquation: $y_i = x_i^2 / n$.\n",
+  "receipt": {
+    "operation": "fulltext",
+    "exit_code": 0,
+    "result": {
+      "source_id": "00000000-0000-4000-8000-000000000002",
+      "title": "Synthetic formatting probe",
+      "content": "# Synthetic rubric\n\nEvidence: preserve every symbol.\n\nEquation: $y_i = xi2 / n$.\n"
+    },
+    "stderr": "",
+    "elapsed_ms": 0
+  }
+}

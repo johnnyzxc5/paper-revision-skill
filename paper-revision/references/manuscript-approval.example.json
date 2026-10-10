@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "task_id": "C1",
+  "route_decision_file": "route-decision.json",
+  "selected_route_id": "R-A",
+  "candidate_sha256": "replace-with-sha256-of-the-exact-candidate-file",
+  "chat_preview": {
+    "shown_to_user": true,
+    "format": "EXACT_LATEX",
+    "location": "manuscript.tex, Results subsection",
+    "main_changes": [
+      "Limit association wording to the observed sample",
+      "Preserve the denominator and measurement conditions",
+      "Clarify the inference boundary"
+    ],
+    "before": "Optional short diff or anchor snippet explaining the change; full duplicate before-text is not required.",
+    "after": "Exact LaTeX candidate source code shown in ```latex block.",
+    "reason": "Concise author-facing explanation of the change and supporting evidence; keep process commentary outside the manuscript."
+  },
+  "draft_audit_query_ids": [
+    "C1-final-theory-r1",
+    "C1-final-writing-r1"
+  ],
+  "candidate_notebooklm_consultation": {
+    "status": "COMPLETED",
+    "required_roles": [
+      "theory",
+      "writing"
+    ],
+    "candidate_sha256": "replace-with-sha256-of-the-exact-candidate-file",
+    "reason": "The selected route changes both technical meaning and scientific rhetoric.",
+    "receipts": [
+      {
+        "query_id": "C1-final-theory-r1",
+        "role": "theory",
+        "notebook_id": "resolved-theory-notebook-id",
+        "source_ids": [],
+        "prompt_file": "receipts/C1-final-theory-r1.txt",
+        "output_file": "receipts/C1-final-theory-r1.json",
+        "output_sha256": "replace-with-output-sha256"
+      },
+      {
+        "query_id": "C1-final-writing-r1",
+        "role": "writing",
+        "notebook_id": "resolved-writing-notebook-id",
+        "source_ids": [
+          "rubric-source-id",
+          "required-writing-source-id"
+        ],
+        "prompt_file": "receipts/C1-final-writing-r1.txt",
+        "output_file": "receipts/C1-final-writing-r1.json",
+        "output_sha256": "replace-with-output-sha256"
+      }
+    ],
+    "findings": [
+      {
+        "query_id": "C1-final-theory-r1",
+        "role": "theory",
+        "verdict": "PASS",
+        "evidence": "Exact source-grounded evidence copied from the raw answer."
+      },
+      {
+        "query_id": "C1-final-writing-r1",
+        "role": "writing",
+        "verdict": "PASS",
+        "evidence": "Exact rubric/manual evidence copied from the raw answer."
+      }
+    ]
+  },
+  "user_draft_decision": {
+    "status": "PENDING",
+    "candidate_sha256": "replace-with-the-same-sha256",
+    "evidence": null
+  }
+}

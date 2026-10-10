@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "task_id": "III-C.3-writing-route-r1",
+  "venue_profile": "IEEE; exact publication to be verified before normative claims",
+  "profiles": ["scientific_structure", "prose_clarity", "ieee_math_typesetting"],
+  "declared_layers": ["L2", "L6", "L7", "L8"]
+}

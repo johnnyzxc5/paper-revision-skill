@@ -1,0 +1,12 @@
+TASK_ID: C1-project-context-r1
+ROLE: Project-state auditor.
+PROJECT_SNAPSHOT: synthetic-example-snapshot
+CURRENT_BLOCK: Results subsection.
+DECISION: Identify actual requirements and dependencies in the supplied synthetic context.
+
+Return exactly these labels:
+SNAPSHOT_MATCH:
+IN_FORCE_CONSTRAINTS:
+REVIEWER_REQUIREMENTS:
+RIPPLE_TARGETS:
+MISSING_LOCAL_EVIDENCE:
