@@ -1,9 +1,9 @@
 # Technical Scientific Paper Revision Rubric
 
-**Source title:** Technical Scientific Paper Revision Rubric v1.1  
-**Content version:** 1.1; synchronize the remote source against this file's hash  
-**Source role:** Operational evaluation schema for author-side revision  
-**Scope:** scientific manuscripts; domain-specific checks apply only when relevant  
+**Source title:** Technical Scientific Paper Revision Rubric v1.1
+**Content version:** 1.1; synchronize the remote source against this file's hash
+**Source role:** Operational evaluation schema for author-side revision
+**Scope:** scientific manuscripts; domain-specific checks apply only when relevant
 **Venue profile:** IEEE when the IEEE annex is explicitly activated
 
 This rubric is both an internal reference for the `paper-revision`
